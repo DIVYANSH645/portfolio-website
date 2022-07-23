@@ -1,0 +1,217 @@
+
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | Code4education </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+				 <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello 👋 ,</div>
+        <div class="text-two">I'm Divyansh sharma</div>
+        <div class="text-three">Frontend Developer</div>
+       </div>
+      <div class="button">
+        <button><a href="#about">About Me</button>
+      </div>
+    </div>
+			
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="IMG_20220520_202119272_HDR.jpg">
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <p>I am Divyansh Sharma pursuing B.Tech in Computer Science Engineering at Government Engineering College, Ujjain, Madhya Pradesh. I am always ready to have new experiences, meet new people and learn innovative things that can enhance my knowledge. 
+</p><div class="button">
+  <a href="Divyansh's Resume (1) (1).pdf"><button>Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="education" id="education">
+            <div class="max-width">
+            <h2 class="title"><span>Education</span></h2>
+            <div class="box-container">
+                    <div class="box">
+                          <i class="fas fa-graduation-cap"></i>
+                          <span>2020-24</span>
+                           <h3>Bachelor of Technology(B.Tech)</h3>
+                            <p>I am currently in 5th semester of Btech in Computer Science and Engineering from Ujjain Engineering College,Ujjain.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-graduation-cap"></i>
+                         <span>2019-20</span>
+ <h3>Higher Education(12th)</h3>
+  <p>I have completed my class 12th from Gyan Sagar Academy in CBSE board with a score of 95.2% aggregate. </p>
+ </div>
+  <div class="box">
+                         <i class="fas fa-graduation-cap"></i>
+                         <span>2017-18</span>
+                         <h3> Senior Secondry(10th)</h3>
+<p>I have completed my class 10th from Nirmala Convent School ,Ujjain and secured 83.4% aggregate</p>
+  </div>
+                </div>
+
+            </div>
+        </section>
+ <section class="skills" id="skills">
+            <div class="max-width">
+                <div class="title"><span>Skills</span></div>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="text">My Skillset and certifications !!!</div>
+                        <p>I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.I have completed a SQL  Skill certificate course authorized by HackeRank</p>
+                       
+                    </div> 
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line html"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line css"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JAVASCRIPT</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="line javascript"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Java</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line python"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>C</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line c"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>MYSQL</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line mysql"></div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT-->
+       <section class="contact" id="contact">
+        <div class="contact">
+
+          <div class="wrapper">
+        
+            <div class="form">
+              <div class="title"><span>Contact</span></div>
+              <h2 class="form-headline">Send us a message</h2>
+              <form id="submit-form" action="">
+                <p>
+                  <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                  <small class="name-error"></small>
+                </p>
+                <p>
+                  <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                  <small class="name-error"></small>
+                </p>
+                <p class="full-width">
+                  <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+                  <small></small>
+                </p>
+                <p class="full-width">
+                  <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                  <small></small>
+                </p>
+                <p class="full-width">
+                  <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+                </p>
+                <p class="full-width">
+                  <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                  <button class="reset-btn" onclick="reset()">Reset</button>
+                </p>
+              </form>
+            </div>
+        
+            <div class="contacts contact-wrapper">
+        
+              <ul>
+                <li>Yoy can contact me through gmail.<span class="highlight-text-grey"></span>Ready to know
+                  how we can help you?</li>
+                <span class="hightlight-contact-info">
+                  <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i>divyansh645@gmail.com</li>
+                  <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 7879180741</span></li>
+                </span>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </section>
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">DIVYANSH SHARMA</a></span>
+    </div>
+  </footer>
+
+   
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
